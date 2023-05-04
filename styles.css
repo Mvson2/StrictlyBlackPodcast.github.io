@@ -4,6 +4,14 @@ body {
   color: black;
   margin: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
+.insta-feed{display:block;}
+#merch-img{height:10rem;   display: block;   margin-top:3rem;
+}
+#img-container{ display:flex; justify-content:center; margin:auto;  margin-top:3rem;}
+#paragraph{ margin-left: 1.5rem; margin-right: 1.5rem; line-height: 1.25rem; text-align: justify;}
+#profile-container{margin-top:3rem;}
+#profile{display:block; margin:auto; height:20rem; background-color:black; padding:0.25rem; border-radius:2.25rem;}
+.insta-feed{display:block;}
 
 p {
   line-height: 1.25rem;
@@ -55,6 +63,14 @@ p {
 
 
 @media (min-width:500px) {
+  
+  .insta-feed{display:none;}
+  
+  #merch-img{height:15rem;   display: block;   margin-top:3rem; margin-left: 3rem; margin-right: 3rem;
+}
+
+#img-container{display:flex; justify-content:center; margin:auto; }
+  .insta-feed{display:none;}
   h1 {
     font-size: 1.5rem;
   }
@@ -100,7 +116,12 @@ p {
 }
 
 @media (min-width:1000px) {
+  .insta-feed{display:none;}
+  #merch-img{height:20rem;   display: block;   margin-top:3rem; margin-left: 7rem; margin-right:7rem;
+}
 
+#img-container{display:flex; justify-content:center; }
+.insta-feed{display:none;}
   #more {
     display: flex;
     margin: auto;
