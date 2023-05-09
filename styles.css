@@ -66,10 +66,6 @@ body {
 #profile{display:block; margin:auto; height:20rem; background-color:black; padding:0.25rem; border-radius:2.25rem;}
 .insta-feed{display:block;}
 
-p {
-  line-height: 1.25rem;
-}
-
 
 #bon {
 
@@ -214,10 +210,6 @@ p {
     width: 50%;
   }
 
-  p {
-    font-size: 1.35rem;
-    line-height: 2rem;
-  }
     #snp-container {
     display: flex;
     margin-top:5rem;
